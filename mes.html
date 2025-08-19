@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZR Digital Store - Sell Digital Products</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4A90E2;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background-color: #FFA77F;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 50px 20px;
+      gap: 30px;
+    }
+
+    .product-card {
+      background-color: white;
+      border-radius: 15px;
+      width: 240px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-card h2 {
+      font-size: 1.5em;
+      margin: 15px 0;
+    }
+
+    .product-card p {
+      font-size: 1em;
+      margin: 10px 0;
+    }
+
+    .product-card .buy-button {
+      background-color: #4A90E2;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .ad-banner {
+      background-color: #FFD166;
+      text-align: center;
+      padding: 20px;
+      margin: 40px 20px;
+      border-radius: 15px;
+      font-size: 1.2em;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background-color: #4A90E2;
+      color: white;
+    }
+
+    @media(max-width: 768px) {
+      .products {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ZR Digital Store 💻</h1>
+    <p>Sell & Buy Premium Digital Products - Ebooks, Templates, AI Prompts & More!</p>
+    <a href="#products" class="cta-button">Start Shopping</a>
+  </header>
+
+  <!-- Advertisement banner -->
+  <div class="ad-banner">Ad Space - Place your Google AdSense code here</div>
+
+  <section id="products" class="products">
+    <div class="product-card">
+      <div style="font-size: 3em;">📚</div>
+      <h2>Ebooks</h2>
+      <p>High-quality ebooks ready to sell and learn.</p>
+      <a href="#" class="buy-button">Buy Now</a>
+    </div>
+    <div class="product-card">
+      <div style="font-size: 3em;">🎨</div>
+      <h2>Design Templates</h2>
+      <p>Professional templates for your projects.</p>
+      <a href="#" class="buy-button">Buy Now</a>
+    </div>
+    <div class="product-card">
+      <div style="font-size: 3em;">🤖</div>
+      <h2>AI Prompts</h2>
+      <p>Generate ideas & content fast with AI prompts.</p>
+      <a href="#" class="buy-button">Buy Now</a>
+    </div>
+    <div class="product-card">
+      <div style="font-size: 3em;">💼</div>
+      <h2>Digital Tools</h2>
+      <p>Boost your digital projects with ready-to-use tools.</p>
+      <a href="#" class="buy-button">Buy Now</a>
+    </div>
+  </section>
+
+  <!-- Another advertisement banner -->
+  <div class="ad-banner">Ad Space - Place your Google AdSense code here</div>
+
+  <footer>
+    &copy; 2025 ZR Digital Store. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
